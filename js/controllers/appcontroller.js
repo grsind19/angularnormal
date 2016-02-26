@@ -1,7 +1,4 @@
 'use strict'
 //defining controllers
-define(['./module'],function(controllerModule){
-	controllerModule.controller('appControl',['$scope',function($scope){
-
-	}])
-})
+var maincontrollerModule = angular.module('app.maincontroller', [])
+maincontrollerModule.controller('appControl', ['$scope', function($scope) {}])
